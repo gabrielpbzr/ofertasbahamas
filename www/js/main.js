@@ -53,10 +53,11 @@ var appOfertas = angular.module('appOfertas',['ionic']);
 /**
  *
  */
-appOfertas.controller('controllerOfertas', function($scope, ofertaService){
+appOfertas.controller('controllerOfertas', function($scope, ofertaService, $ionicModal){
     $scope.ofertas = [];
     $scope.isLoading = true;
     $scope.status = "Carregando...";
+    $scope.icon = "ion-loading-c";
     var data_atual = DateFormatter.toDBString(new Date());
     var ultima_consulta = window.localStorage.getItem('ultima_consulta');
     if(data_atual != ultima_consulta){
@@ -71,6 +72,7 @@ appOfertas.controller('controllerOfertas', function($scope, ofertaService){
         });
 
         request.error(function(data){
+            $scope.icon = "ion-alert-circled";
             $scope.status = "Impossível se comunicar com o servidor. Por favor, tente mais tarde.";
         });
     }else{

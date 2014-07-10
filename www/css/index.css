@@ -99,3 +99,8 @@ header{
     display:table-cell;
     vertical-align: middle;
 }
+
+#divLoading .icon{
+    display:block;
+    font-size: 3em;
+}
