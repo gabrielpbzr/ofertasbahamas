@@ -7,10 +7,10 @@
     </feature>
     <name>Ofertas Bahamas</name>
     <description>
-        Um aplicativo para receber as ofertas do dia do supermercado Bahamas de Viçosa
+        A sample Apache Cordova application that responds to the deviceready event.
     </description>
-    <author email="gabrielpbzr@hotmail.com" href="http://www.twitter.com/gabrielpbzr">
-        Gabriel P. Bezerra
+    <author email="dev@cordova.apache.org" href="http://cordova.io">
+        Apache Cordova Team
     </author>
     <content src="index.html" />
     <access origin="*" />

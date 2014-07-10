@@ -46,7 +46,10 @@
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/js/lib \
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/js/lib/angular.min.js \
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/js/lib/utils.js \
+/home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/js/lib/ionic-angular.min.js \
+/home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/js/lib/ionic.bundle.min.js \
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/img/refresh.png \
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/css/ionicons.min.css \
+/home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/css/ionic.min.css \
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/assets/www/css/index.css \
 /home/desk08/Gabriel/projetos/OfertasBahamas/platforms/android/ant-build/AndroidManifest.xml \

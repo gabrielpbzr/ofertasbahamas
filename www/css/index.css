@@ -47,7 +47,7 @@ body {
     height:100%;
     width:100%;
 }
-
+/*
 header{
     background:#716ca7;
     color:#fff;
@@ -58,8 +58,8 @@ header{
     width:100%;
     height: 60px;
     font-family: 'ExoThin';
-}
-
+}*/
+/*
 #divOfertas{
     width: 100%;
     height: auto;
@@ -70,25 +70,7 @@ header{
     list-style: none;
     font-family: 'ExoLight';
 }
-
-#listaOfertas li{
-    border-bottom:#fff solid 2px;
-    padding:2%;
-    margin: 0.2% 0%;
-    border-radius:5px;
-    background:#C8C5E4;
-}
-
-#listaOfertas li:first-child{
-    padding:2%;
-    margin-top: 0;
-    border-radius:5px;
-}
-
-
-#listaOfertas li p{
-    display:block;
-}
+*/
 .produto{
     font-size:1.2em;
     color:#130E45;

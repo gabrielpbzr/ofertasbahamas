@@ -49,7 +49,7 @@ var app = {
 };
 
 
-var appOfertas = angular.module('appOfertas',[]);
+var appOfertas = angular.module('appOfertas',['ionic']);
 /**
  *
  */
@@ -76,8 +76,8 @@ appOfertas.controller('controllerOfertas', function($scope, ofertaService){
         });
     }else{
         $scope.ofertas = JSON.parse(window.localStorage.getItem('ofertas'));
-        console.log('Carreguei do storage');
         $scope.isLoading = false;
+        console.log('Carreguei do storage');
     }
         
 });

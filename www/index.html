@@ -23,30 +23,32 @@
         <meta name="format-detection" content="telephone=no" />
         <!-- WARNING: for iOS 7, remove the width=device-width and height=device-height attributes. See https://issues.apache.org/jira/browse/CB-4323 -->
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
-        <link rel="stylesheet" type="text/css" href="css/ionicons.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/ionic.min.css" />
         <link rel="stylesheet" type="text/css" href="css/index.css" />
         <meta name="msapplication-tap-highlight" content="no" />
         <meta name="author" content="Gabriel P. Bezerra" />
         <title>Ofertas do dia</title>
     </head>
     <body data-ng-controller="controllerOfertas">
-        <header>
-            <h1>Ofertas do dia</h1>
-        </header>
-        <div id="divOfertas">
-            <ul id="listaOfertas">
-                <li data-ng-repeat="oferta in ofertas">
+        <ion-header-bar class="bar bar-header bar-royal">
+            <h1 class="title">Ofertas do dia</h1>
+        </ion-header-bar>
+        
+        <ion-content>
+            <ion-list>
+                <ion-item data-ng-repeat="oferta in ofertas" class="item">
                     <p class="produto">{{oferta.produto}}</p>
                     <p class="preco">{{oferta.preco}}</p>
-                </li>
-            </ul>
-        </div>
+                </ion-item>
+            </ion-list>
+        </ion-content>
+        
         <div id="divLoading" data-ng-show="isLoading">
             <p>{{status}}</p>
         </div>
         
         <script type="text/javascript" src="cordova.js"></script>
-        <script type="text/javascript" src="js/lib/angular.min.js"></script>
+        <script type="text/javascript" src="js/lib/ionic.bundle.min.js"></script>
         <script type="text/javascript" src="js/lib/utils.js"></script>
         <script type="text/javascript" src="js/main.js"></script>
         <script type="text/javascript">
